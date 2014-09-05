@@ -1,0 +1,49 @@
+
+    "ScalaFormat":
+    {
+        "autoformat_on_save": true,
+        "scalariform": {
+	        // Enable/disable Align parameters on different lines in the same column
+	        "alignParameters": true,
+	        // Enable/disable Align the arrows of consecutive single-line case statements
+	        "alignSingleLineCaseStatements": true,
+	        // Set Maximum number of spaces inserted before an arrow to align case statements: [1-100]
+	        "alignSingleLineCaseStatements.maxArrowIndent": 40,
+	        // Enable/disable Compact Control Readability style
+	        "compactControlReadability": true,
+	        // Enable/disable Omit spaces when formatting a '+' operator on String literals
+	        "compactStringConcatenation": true,
+	        // Enable/disable Double indent either a class's parameters or its inheritance list
+	        "doubleIndentClassDeclaration": true,
+	        // Enable/disable Format XML literals
+	        "formatXml": true,
+	        // Enable/disable Indent local defs an extra level
+	        "indentLocalDefs": true,
+	        // Enable/disable Indent package blocks
+	        "indentPackageBlocks": true,
+	        // Set Number of spaces to use for indentation: [1-10]
+	        "indentSpaces": 2,
+	        // Enable/disable Use a tab character for indentation
+	        "indentWithTabs": true,
+	        // Enable/disable Start multiline Scaladoc comment body on same line as the opening '/**'
+	        "multilineScaladocCommentsStartOnFirstLine": true,
+	        // Enable/disable Allow a newline before a ')' in an argument expression
+	        "preserveDanglingCloseParenthesis": true,
+	        // Enable/disable Place Scaladoc asterisks beneath the second asterisk in the opening '/**', as opposed to the first
+	        "placeScaladocAsterisksBeneathSecondAsterisk": true,
+	        // Enable/disable Preserve a space before a parenthesis argument
+	        "preserveSpaceBeforeArguments": true,
+	        // Enable/disable Replace arrow tokens with unicode, equivalents: => with ?, and <- with ¡û
+	        "rewriteArrowSymbols": false,
+	        // Enable/disable Add a space before colons
+	        "spaceBeforeColon": false,
+	        // Enable/disable Require a space after '[' and before ']'
+	        "spaceInsideBrackets": false,
+	        // Enable/disable Require a space after '(' and before ')'
+	        "spaceInsideParentheses": false,
+	        // Enable/disable Add a space around the @ token in pattern binders
+	        "spacesWithinPatternBinders": true
+
+        }
+    }
+
