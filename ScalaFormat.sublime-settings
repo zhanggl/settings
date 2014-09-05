@@ -26,7 +26,7 @@
 	        // Enable/disable Use a tab character for indentation
 	        "indentWithTabs": true,
 	        // Enable/disable Start multiline Scaladoc comment body on same line as the opening '/**'
-	        "multilineScaladocCommentsStartOnFirstLine": true,
+	        "multilineScaladocCommentsStartOnFirstLine": false,
 	        // Enable/disable Allow a newline before a ')' in an argument expression
 	        "preserveDanglingCloseParenthesis": true,
 	        // Enable/disable Place Scaladoc asterisks beneath the second asterisk in the opening '/**', as opposed to the first
